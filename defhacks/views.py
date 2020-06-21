@@ -6,3 +6,6 @@ def home(request):
 
 def wall():
     return HttpResponse("Logged in.")
+
+def signup(request):
+    return render(request, 'signup.html')
